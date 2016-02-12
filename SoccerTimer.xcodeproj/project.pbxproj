@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0E4B151C6E53FE00D2CAA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4B141C6E53FE00D2CAA2 /* AppDelegate.swift */; };
+		BC0E4B171C6E53FE00D2CAA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4B161C6E53FE00D2CAA2 /* ViewController.swift */; };
+		BC0E4B1A1C6E53FE00D2CAA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0E4B181C6E53FE00D2CAA2 /* Main.storyboard */; };
+		BC0E4B1C1C6E53FE00D2CAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0E4B1B1C6E53FE00D2CAA2 /* Assets.xcassets */; };
+		BC0E4B1F1C6E53FE00D2CAA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0E4B1D1C6E53FE00D2CAA2 /* LaunchScreen.storyboard */; };
+		BC0E4B2A1C6E53FE00D2CAA2 /* SoccerTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4B291C6E53FE00D2CAA2 /* SoccerTimerTests.swift */; };
+		BC0E4B351C6E53FE00D2CAA2 /* SoccerTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4B341C6E53FE00D2CAA2 /* SoccerTimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC0E4B261C6E53FE00D2CAA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC0E4B091C6E53FE00D2CAA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0E4B101C6E53FE00D2CAA2;
+			remoteInfo = SoccerTimer;
+		};
+		BC0E4B311C6E53FE00D2CAA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC0E4B091C6E53FE00D2CAA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0E4B101C6E53FE00D2CAA2;
+			remoteInfo = SoccerTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC0E4B111C6E53FE00D2CAA2 /* SoccerTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoccerTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0E4B141C6E53FE00D2CAA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC0E4B161C6E53FE00D2CAA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC0E4B191C6E53FE00D2CAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC0E4B1B1C6E53FE00D2CAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC0E4B1E1C6E53FE00D2CAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0E4B201C6E53FE00D2CAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0E4B251C6E53FE00D2CAA2 /* SoccerTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0E4B291C6E53FE00D2CAA2 /* SoccerTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerTimerTests.swift; sourceTree = "<group>"; };
+		BC0E4B2B1C6E53FE00D2CAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0E4B301C6E53FE00D2CAA2 /* SoccerTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0E4B341C6E53FE00D2CAA2 /* SoccerTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerTimerUITests.swift; sourceTree = "<group>"; };
+		BC0E4B361C6E53FE00D2CAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0E4B0E1C6E53FE00D2CAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0E4B221C6E53FE00D2CAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0E4B2D1C6E53FE00D2CAA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0E4B081C6E53FE00D2CAA2 = {
+			isa = PBXGroup;
+			children = (
+				BC0E4B131C6E53FE00D2CAA2 /* SoccerTimer */,
+				BC0E4B281C6E53FE00D2CAA2 /* SoccerTimerTests */,
+				BC0E4B331C6E53FE00D2CAA2 /* SoccerTimerUITests */,
+				BC0E4B121C6E53FE00D2CAA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0E4B121C6E53FE00D2CAA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4B111C6E53FE00D2CAA2 /* SoccerTimer.app */,
+				BC0E4B251C6E53FE00D2CAA2 /* SoccerTimerTests.xctest */,
+				BC0E4B301C6E53FE00D2CAA2 /* SoccerTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0E4B131C6E53FE00D2CAA2 /* SoccerTimer */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4B141C6E53FE00D2CAA2 /* AppDelegate.swift */,
+				BC0E4B161C6E53FE00D2CAA2 /* ViewController.swift */,
+				BC0E4B181C6E53FE00D2CAA2 /* Main.storyboard */,
+				BC0E4B1B1C6E53FE00D2CAA2 /* Assets.xcassets */,
+				BC0E4B1D1C6E53FE00D2CAA2 /* LaunchScreen.storyboard */,
+				BC0E4B201C6E53FE00D2CAA2 /* Info.plist */,
+			);
+			path = SoccerTimer;
+			sourceTree = "<group>";
+		};
+		BC0E4B281C6E53FE00D2CAA2 /* SoccerTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4B291C6E53FE00D2CAA2 /* SoccerTimerTests.swift */,
+				BC0E4B2B1C6E53FE00D2CAA2 /* Info.plist */,
+			);
+			path = SoccerTimerTests;
+			sourceTree = "<group>";
+		};
+		BC0E4B331C6E53FE00D2CAA2 /* SoccerTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E4B341C6E53FE00D2CAA2 /* SoccerTimerUITests.swift */,
+				BC0E4B361C6E53FE00D2CAA2 /* Info.plist */,
+			);
+			path = SoccerTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0E4B101C6E53FE00D2CAA2 /* SoccerTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0E4B391C6E53FE00D2CAA2 /* Build configuration list for PBXNativeTarget "SoccerTimer" */;
+			buildPhases = (
+				BC0E4B0D1C6E53FE00D2CAA2 /* Sources */,
+				BC0E4B0E1C6E53FE00D2CAA2 /* Frameworks */,
+				BC0E4B0F1C6E53FE00D2CAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoccerTimer;
+			productName = SoccerTimer;
+			productReference = BC0E4B111C6E53FE00D2CAA2 /* SoccerTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC0E4B241C6E53FE00D2CAA2 /* SoccerTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0E4B3C1C6E53FE00D2CAA2 /* Build configuration list for PBXNativeTarget "SoccerTimerTests" */;
+			buildPhases = (
+				BC0E4B211C6E53FE00D2CAA2 /* Sources */,
+				BC0E4B221C6E53FE00D2CAA2 /* Frameworks */,
+				BC0E4B231C6E53FE00D2CAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC0E4B271C6E53FE00D2CAA2 /* PBXTargetDependency */,
+			);
+			name = SoccerTimerTests;
+			productName = SoccerTimerTests;
+			productReference = BC0E4B251C6E53FE00D2CAA2 /* SoccerTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC0E4B2F1C6E53FE00D2CAA2 /* SoccerTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0E4B3F1C6E53FE00D2CAA2 /* Build configuration list for PBXNativeTarget "SoccerTimerUITests" */;
+			buildPhases = (
+				BC0E4B2C1C6E53FE00D2CAA2 /* Sources */,
+				BC0E4B2D1C6E53FE00D2CAA2 /* Frameworks */,
+				BC0E4B2E1C6E53FE00D2CAA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC0E4B321C6E53FE00D2CAA2 /* PBXTargetDependency */,
+			);
+			name = SoccerTimerUITests;
+			productName = SoccerTimerUITests;
+			productReference = BC0E4B301C6E53FE00D2CAA2 /* SoccerTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0E4B091C6E53FE00D2CAA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hayden Scott";
+				TargetAttributes = {
+					BC0E4B101C6E53FE00D2CAA2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BC0E4B241C6E53FE00D2CAA2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC0E4B101C6E53FE00D2CAA2;
+					};
+					BC0E4B2F1C6E53FE00D2CAA2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC0E4B101C6E53FE00D2CAA2;
+					};
+				};
+			};
+			buildConfigurationList = BC0E4B0C1C6E53FE00D2CAA2 /* Build configuration list for PBXProject "SoccerTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0E4B081C6E53FE00D2CAA2;
+			productRefGroup = BC0E4B121C6E53FE00D2CAA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0E4B101C6E53FE00D2CAA2 /* SoccerTimer */,
+				BC0E4B241C6E53FE00D2CAA2 /* SoccerTimerTests */,
+				BC0E4B2F1C6E53FE00D2CAA2 /* SoccerTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0E4B0F1C6E53FE00D2CAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E4B1F1C6E53FE00D2CAA2 /* LaunchScreen.storyboard in Resources */,
+				BC0E4B1C1C6E53FE00D2CAA2 /* Assets.xcassets in Resources */,
+				BC0E4B1A1C6E53FE00D2CAA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0E4B231C6E53FE00D2CAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0E4B2E1C6E53FE00D2CAA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0E4B0D1C6E53FE00D2CAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E4B171C6E53FE00D2CAA2 /* ViewController.swift in Sources */,
+				BC0E4B151C6E53FE00D2CAA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0E4B211C6E53FE00D2CAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E4B2A1C6E53FE00D2CAA2 /* SoccerTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0E4B2C1C6E53FE00D2CAA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0E4B351C6E53FE00D2CAA2 /* SoccerTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC0E4B271C6E53FE00D2CAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC0E4B101C6E53FE00D2CAA2 /* SoccerTimer */;
+			targetProxy = BC0E4B261C6E53FE00D2CAA2 /* PBXContainerItemProxy */;
+		};
+		BC0E4B321C6E53FE00D2CAA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC0E4B101C6E53FE00D2CAA2 /* SoccerTimer */;
+			targetProxy = BC0E4B311C6E53FE00D2CAA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC0E4B181C6E53FE00D2CAA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0E4B191C6E53FE00D2CAA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC0E4B1D1C6E53FE00D2CAA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0E4B1E1C6E53FE00D2CAA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0E4B371C6E53FE00D2CAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC0E4B381C6E53FE00D2CAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0E4B3A1C6E53FE00D2CAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoccerTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HaydenIsACutiePie.SoccerTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC0E4B3B1C6E53FE00D2CAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoccerTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HaydenIsACutiePie.SoccerTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC0E4B3D1C6E53FE00D2CAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoccerTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HaydenIsACutiePie.SoccerTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoccerTimer.app/SoccerTimer";
+			};
+			name = Debug;
+		};
+		BC0E4B3E1C6E53FE00D2CAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoccerTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HaydenIsACutiePie.SoccerTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoccerTimer.app/SoccerTimer";
+			};
+			name = Release;
+		};
+		BC0E4B401C6E53FE00D2CAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoccerTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HaydenIsACutiePie.SoccerTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoccerTimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BC0E4B411C6E53FE00D2CAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoccerTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HaydenIsACutiePie.SoccerTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SoccerTimer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0E4B0C1C6E53FE00D2CAA2 /* Build configuration list for PBXProject "SoccerTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E4B371C6E53FE00D2CAA2 /* Debug */,
+				BC0E4B381C6E53FE00D2CAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0E4B391C6E53FE00D2CAA2 /* Build configuration list for PBXNativeTarget "SoccerTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E4B3A1C6E53FE00D2CAA2 /* Debug */,
+				BC0E4B3B1C6E53FE00D2CAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC0E4B3C1C6E53FE00D2CAA2 /* Build configuration list for PBXNativeTarget "SoccerTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E4B3D1C6E53FE00D2CAA2 /* Debug */,
+				BC0E4B3E1C6E53FE00D2CAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC0E4B3F1C6E53FE00D2CAA2 /* Build configuration list for PBXNativeTarget "SoccerTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0E4B401C6E53FE00D2CAA2 /* Debug */,
+				BC0E4B411C6E53FE00D2CAA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0E4B091C6E53FE00D2CAA2 /* Project object */;
+}
