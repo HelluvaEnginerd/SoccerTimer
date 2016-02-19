@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "1e3d10cfd740d9ab70af434694c3bfa6"
+build_time: [509053062, 311110000]
+inputs:
+  "/Users/Hayden/Developer/SoccerTimer/SoccerTimer/ViewController.swift": [509047399, 0]
+  "/Users/Hayden/Developer/SoccerTimer/SoccerTimer/Timer.swift": [508922427, 0]
+  "/Users/Hayden/Developer/SoccerTimer/SoccerTimer/AppDelegate.swift": [508919288, 0]

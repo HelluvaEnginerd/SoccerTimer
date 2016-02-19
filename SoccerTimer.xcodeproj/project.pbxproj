@@ -14,6 +14,8 @@
 		BC0E4B1F1C6E53FE00D2CAA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0E4B1D1C6E53FE00D2CAA2 /* LaunchScreen.storyboard */; };
 		BC0E4B2A1C6E53FE00D2CAA2 /* SoccerTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4B291C6E53FE00D2CAA2 /* SoccerTimerTests.swift */; };
 		BC0E4B351C6E53FE00D2CAA2 /* SoccerTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E4B341C6E53FE00D2CAA2 /* SoccerTimerUITests.swift */; };
+		BCDB89281C70064400A783ED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDB89271C70064400A783ED /* AudioToolbox.framework */; };
+		BCDB892A1C704DE600A783ED /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDB89291C704DE600A783ED /* Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		BC0E4B301C6E53FE00D2CAA2 /* SoccerTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0E4B341C6E53FE00D2CAA2 /* SoccerTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerTimerUITests.swift; sourceTree = "<group>"; };
 		BC0E4B361C6E53FE00D2CAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDB89261C70064400A783ED /* SoccerTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SoccerTimer.entitlements; sourceTree = "<group>"; };
+		BCDB89271C70064400A783ED /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BCDB89291C704DE600A783ED /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDB89281C70064400A783ED /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,7 @@
 		BC0E4B081C6E53FE00D2CAA2 = {
 			isa = PBXGroup;
 			children = (
+				BCDB89271C70064400A783ED /* AudioToolbox.framework */,
 				BC0E4B131C6E53FE00D2CAA2 /* SoccerTimer */,
 				BC0E4B281C6E53FE00D2CAA2 /* SoccerTimerTests */,
 				BC0E4B331C6E53FE00D2CAA2 /* SoccerTimerUITests */,
@@ -97,8 +104,10 @@
 		BC0E4B131C6E53FE00D2CAA2 /* SoccerTimer */ = {
 			isa = PBXGroup;
 			children = (
+				BCDB89261C70064400A783ED /* SoccerTimer.entitlements */,
 				BC0E4B141C6E53FE00D2CAA2 /* AppDelegate.swift */,
 				BC0E4B161C6E53FE00D2CAA2 /* ViewController.swift */,
+				BCDB89291C704DE600A783ED /* Timer.swift */,
 				BC0E4B181C6E53FE00D2CAA2 /* Main.storyboard */,
 				BC0E4B1B1C6E53FE00D2CAA2 /* Assets.xcassets */,
 				BC0E4B1D1C6E53FE00D2CAA2 /* LaunchScreen.storyboard */,
@@ -193,6 +202,15 @@
 				TargetAttributes = {
 					BC0E4B101C6E53FE00D2CAA2 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HMRQSSV99T;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 					BC0E4B241C6E53FE00D2CAA2 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -256,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDB892A1C704DE600A783ED /* Timer.swift in Sources */,
 				BC0E4B171C6E53FE00D2CAA2 /* ViewController.swift in Sources */,
 				BC0E4B151C6E53FE00D2CAA2 /* AppDelegate.swift in Sources */,
 			);
@@ -399,10 +418,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoccerTimer/SoccerTimer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SoccerTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HaydenIsACutiePie.SoccerTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +433,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SoccerTimer/SoccerTimer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SoccerTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HaydenIsACutiePie.SoccerTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +511,7 @@
 				BC0E4B3B1C6E53FE00D2CAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC0E4B3C1C6E53FE00D2CAA2 /* Build configuration list for PBXNativeTarget "SoccerTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +520,7 @@
 				BC0E4B3E1C6E53FE00D2CAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC0E4B3F1C6E53FE00D2CAA2 /* Build configuration list for PBXNativeTarget "SoccerTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +529,7 @@
 				BC0E4B411C6E53FE00D2CAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

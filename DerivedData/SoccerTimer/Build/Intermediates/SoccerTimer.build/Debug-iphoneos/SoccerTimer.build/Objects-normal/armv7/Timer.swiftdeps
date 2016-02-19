@@ -1,0 +1,444 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Timer"
+provides-nominal:
+- "C11SoccerTimer5Timer"
+provides-member:
+- ["C11SoccerTimer5Timer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AVSpeechSynthesisVoice"
+- !private "UnicodeScalarType"
+- "String"
+- !private ">"
+- !private "NSDate"
+- !private "/"
+- "Bool"
+- !private "+"
+- "BooleanLiteralType"
+- "FloatLiteralType"
+- !private "Double"
+- !private "-"
+- !private "AVSpeechUtterance"
+- !private "*"
+- "IntegerLiteralType"
+- !private "UInt8"
+- "Int"
+- "Timer"
+- "NSTimeInterval"
+- "AVSpeechSynthesizer"
+- !private "StringLiteralType"
+- !private "-="
+depends-member:
+- !private ["CSo22AVSpeechSynthesisVoice", "init"]
+- ["CSo19AVSpeechSynthesizer", "init"]
+- !private ["CSo19AVSpeechSynthesizer", "speakUtterance"]
+- !private ["CSo17AVSpeechUtterance", "init"]
+- !private ["CSo17AVSpeechUtterance", "voice"]
+- !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
+- !private ["PSs16AbsoluteValuable", "Stride"]
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "AVSpeechSynthesisVoice"]
+- ["PSs9AnyObject", "AVSpeechSynthesizer"]
+- !private ["PSs9AnyObject", "AVSpeechUtterance"]
+- !private ["PSs9AnyObject", "Double"]
+- !private ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "NSDate"]
+- !private ["PSs9AnyObject", "NSTimeInterval"]
+- !private ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "UInt8"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "restTime"]
+- !private ["PSs9AnyObject", "runTime"]
+- !private ["PSs9AnyObject", "speakUtterance"]
+- !private ["PSs9AnyObject", "startTime"]
+- !private ["PSs9AnyObject", "synthesizer"]
+- !private ["PSs9AnyObject", "timeIntervalSinceReferenceDate"]
+- !private ["PSs9AnyObject", "voice"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "Stride"]
+- !private ["PSs22BidirectionalIndexType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Stride"]
+- !private ["PSs21BitwiseOperationsType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "Stride"]
+- !private ["PSs11CVarArgType", "_DisallowMixedSignArithmetic"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "speakUtterance"]
+- !private ["PSs11CVarArgType", "timeIntervalSinceReferenceDate"]
+- !private ["PSs11CVarArgType", "voice"]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "Stride"]
+- !private ["PSs10Comparable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Stride"]
+- !private ["PSs23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "speakUtterance"]
+- !private ["PSs23CustomStringConvertible", "timeIntervalSinceReferenceDate"]
+- !private ["PSs23CustomStringConvertible", "voice"]
+- !private ["Sd", "IntegerLiteralType"]
+- !private ["Sd", "Stride"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Stride"]
+- !private ["PSs9Equatable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "speakUtterance"]
+- !private ["PSs9Equatable", "timeIntervalSinceReferenceDate"]
+- !private ["PSs9Equatable", "voice"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "IntegerLiteralType"]
+- !private ["Sf", "Stride"]
+- !private ["Sf", "deinit"]
+- !private ["PSs23FloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs23FloatLiteralConvertible", "Stride"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "IntegerLiteralType"]
+- !private ["PSs17FloatingPointType", "Stride"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "Stride"]
+- !private ["PSs16ForwardIndexType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Stride"]
+- !private ["PSs8Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "speakUtterance"]
+- !private ["PSs8Hashable", "timeIntervalSinceReferenceDate"]
+- !private ["PSs8Hashable", "voice"]
+- !private ["SQ", "deinit"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["VSs5Int16", "IntegerLiteralType"]
+- !private ["VSs5Int16", "Stride"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "IntegerLiteralType"]
+- !private ["VSs5Int32", "Stride"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "IntegerLiteralType"]
+- !private ["VSs5Int64", "Stride"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "IntegerLiteralType"]
+- !private ["VSs4Int8", "Stride"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Stride"]
+- !private ["PSs21IntegerArithmeticType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Stride"]
+- !private ["PSs25IntegerLiteralConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Stride"]
+- !private ["PSs11IntegerType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Stride"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "timeIntervalSinceReferenceDate"]
+- !private ["PSo8NSCoding", "voice"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "timeIntervalSinceReferenceDate"]
+- !private ["PSo9NSCopying", "voice"]
+- !private ["CSo6NSDate", "timeIntervalSinceReferenceDate"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "speakUtterance"]
+- !private ["CSo8NSObject", "timeIntervalSinceReferenceDate"]
+- !private ["CSo8NSObject", "voice"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "speakUtterance"]
+- !private ["PSo16NSObjectProtocol", "timeIntervalSinceReferenceDate"]
+- !private ["PSo16NSObjectProtocol", "voice"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "timeIntervalSinceReferenceDate"]
+- !private ["PSo14NSSecureCoding", "voice"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "Stride"]
+- !private ["PSs21RandomAccessIndexType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "Stride"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Stride"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Stride"]
+- !private ["PSs10Strideable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["C11SoccerTimer5Timer", "AVSpeechSynthesisVoice"]
+- ["C11SoccerTimer5Timer", "AVSpeechSynthesizer"]
+- !private ["C11SoccerTimer5Timer", "AVSpeechUtterance"]
+- ["C11SoccerTimer5Timer", "Bool"]
+- !private ["C11SoccerTimer5Timer", "Double"]
+- ["C11SoccerTimer5Timer", "Int"]
+- !private ["C11SoccerTimer5Timer", "NSDate"]
+- ["C11SoccerTimer5Timer", "NSTimeInterval"]
+- ["C11SoccerTimer5Timer", "String"]
+- !private ["C11SoccerTimer5Timer", "UInt8"]
+- ["C11SoccerTimer5Timer", "clear"]
+- ["C11SoccerTimer5Timer", "countDown"]
+- ["C11SoccerTimer5Timer", "deinit"]
+- ["C11SoccerTimer5Timer", "getCurrentSecond"]
+- ["C11SoccerTimer5Timer", "getRestTime"]
+- ["C11SoccerTimer5Timer", "getRunTime"]
+- ["C11SoccerTimer5Timer", "getTimeElapsed"]
+- ["C11SoccerTimer5Timer", "init"]
+- ["C11SoccerTimer5Timer", "numRuns"]
+- ["C11SoccerTimer5Timer", "restTime"]
+- ["C11SoccerTimer5Timer", "runTime"]
+- ["C11SoccerTimer5Timer", "start"]
+- ["C11SoccerTimer5Timer", "startTime"]
+- ["C11SoccerTimer5Timer", "stop"]
+- ["C11SoccerTimer5Timer", "synthesizer"]
+- ["C11SoccerTimer5Timer", "updateTime"]
+- ["C11SoccerTimer5Timer", "working"]
+- !private ["Su", "IntegerLiteralType"]
+- !private ["Su", "Stride"]
+- !private ["Su", "_DisallowMixedSignArithmetic"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "IntegerLiteralType"]
+- !private ["VSs6UInt16", "Stride"]
+- !private ["VSs6UInt16", "_DisallowMixedSignArithmetic"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "IntegerLiteralType"]
+- !private ["VSs6UInt32", "Stride"]
+- !private ["VSs6UInt32", "_DisallowMixedSignArithmetic"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "IntegerLiteralType"]
+- !private ["VSs6UInt64", "Stride"]
+- !private ["VSs6UInt64", "_DisallowMixedSignArithmetic"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "Distance"]
+- !private ["VSs5UInt8", "IntegerLiteralType"]
+- !private ["VSs5UInt8", "Stride"]
+- !private ["VSs5UInt8", "_DisallowMixedSignArithmetic"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["VSs5UInt8", "init"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs19UnsignedIntegerType", "Distance"]
+- !private ["PSs19UnsignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs19UnsignedIntegerType", "Stride"]
+- !private ["PSs19UnsignedIntegerType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs19UnsignedIntegerType", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "Stride"]
+- !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Stride"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["PSs19_CVarArgAlignedType", "Stride"]
+- !private ["PSs19_CVarArgAlignedType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- !private ["PSs22_CVarArgPassedAsDouble", "Stride"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "Distance"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "IntegerLiteralType"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "Stride"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["PSs28_DisallowMixedSignArithmetic", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Stride"]
+- !private ["PSs14_Incrementable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Stride"]
+- !private ["PSs22_IntegerArithmeticType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Stride"]
+- !private ["PSs12_IntegerType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Stride"]
+- !private ["PSs21_ObjectiveCBridgeable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "Stride"]
+- !private ["PSs22_RandomAccessAmbiguity", "_DisallowMixedSignArithmetic"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Stride"]
+- !private ["PSs12_Reflectable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "timeIntervalSinceReferenceDate"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "Stride"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Stride"]
+- !private ["PSs11_Strideable", "_DisallowMixedSignArithmetic"]
+- !private ["PSs11_Strideable", "init"]
+- !private ["PSs18_StringElementType", "Distance"]
+- !private ["PSs18_StringElementType", "IntegerLiteralType"]
+- !private ["PSs18_StringElementType", "Stride"]
+- !private ["PSs18_StringElementType", "_DisallowMixedSignArithmetic"]
+- !private ["PSs18_StringElementType", "init"]
+depends-nominal:
+- !private "CSo22AVSpeechSynthesisVoice"
+- "CSo19AVSpeechSynthesizer"
+- !private "CSo17AVSpeechUtterance"
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "C11SoccerTimer5Timer"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs19UnsignedIntegerType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs31_BuiltinFloatLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs16_CocoaStringType"
+- !private "PSs28_DisallowMixedSignArithmetic"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+- !private "PSs18_StringElementType"
+depends-dynamic-lookup:
+depends-external:
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/_CCC SafetyNet/2015-12-23 (December 23) 20-31-42/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "586d755c6f765ca7aa926bf21c9a1dcf"
